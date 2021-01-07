@@ -3,9 +3,6 @@
 import { useState } from 'react';
 import PropTypes from 'prop-types';
 
-const abr = 753;
-console.log('abr');
-
 const CounterApp = ({ value = 10 }) => {
   const [counter, setCounter] = useState(value);
 
